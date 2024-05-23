@@ -1,1 +1,1 @@
-# Otus Java Professional Developer
+# Otus Java Developer Professional
