@@ -57,18 +57,6 @@ allprojects {
     configurations.all {
         resolutionStrategy {
             failOnVersionConflict()
-
-            force("javax.servlet:servlet-api:2.5")
-            force("commons-logging:commons-logging:1.1.1")
-            force("commons-lang:commons-lang:2.5")
-            force("org.codehaus.jackson:jackson-core-asl:1.8.8")
-            force("org.codehaus.jackson:jackson-mapper-asl:1.8.8")
-            force("org.sonarsource.analyzer-commons:sonar-analyzer-commons:2.8.0.2699")
-            force("org.sonarsource.analyzer-commons:sonar-xml-parsing:2.8.0.2699")
-            force("org.sonarsource.sslr:sslr-core:1.24.0.633")
-            force("org.sonarsource.analyzer-commons:sonar-analyzer-recognizers:2.8.0.2699")
-            force("com.google.code.findbugs:jsr305:3.0.2")
-            force("commons-io:commons-io:2.15.1")
         }
     }
 }
